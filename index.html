@@ -12,6 +12,10 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="styles.css" />
 
     <title>Shrestha Club</title>
@@ -25,15 +29,14 @@
     <!-- ===============================================-->
     <main class="main" id="top">
       <nav
-        class="navbar navbar-expand-lg navbar-light sticky-top py-2 d-block"
+        class="navbar navbar-expand-lg navbar-light sticky-top py-0 d-block"
         data-navbar-on-scroll="data-navbar-on-scroll"
-        style="background-color: rgb(240, 244, 249)"
-        ;
+        style="background-color:  #f0f4f9b9;"
       >
         <div class="container">
           <a class="navbar-brand" href="index.html"
             ><img
-              src="Images/icon.jpg"
+              src="Images/shrestha-logo.jpg"
               width="160"
               height="90"
               alt="shresthaclub-logo" /></a
@@ -52,35 +55,37 @@
             class="collapse navbar-collapse border-top border-lg-0 mt-2 mt-lg-0"
             id="navbarSupportedContent"
           >
-            <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base text-center">
+            <ul class="navbar-nav ms-auto pt-2 pt-lg-0 
+             text-center">
               <li class="nav-item px-2">
                 <a class="nav-link" aria-current="page" href="#about"
                   >About Us</a
                 >
               </li>
-              <li class="nav-item px-2">
+              <li class="nav-item px-1">
                 <a class="nav-link" href="#offerings">Our Offerings</a>
               </li>
-              <li class="nav-item px-2">
+              <li class="nav-item px-1">
                 <a class="nav-link" href="#findUs">Events</a>
               </li>
-              <li class="nav-item px-2">
+              <li class="nav-item px-1">
                 <a class="nav-link" href="#findUs">Articles </a>
               </li>
-              <li class="nav-item px-2">
+              <li class="nav-item px-1">
                 <a class="nav-link" href="#findUs">Contact Us</a>
               </li>
             </ul>
             <a
               class="
-                btn btn-sm btn-outline-primary
+                btn btn-sm btn-outline-success
                 rounded-pill
                 order-1 order-lg-0
                 ms-lg-4
               "
               href="#!"
               >Sign In</a
-            >
+            >                     
+              <!-- original: btn-outline-success -->
           </div>
         </div>
       </nav>
@@ -88,13 +93,13 @@
         <div
           class="bg-holder bg-size"
           style="
-            background-image: url(assets/img/gallery/hero-bg.png);
+            background-image: url(Images/shresthaclub-main.jpg);
             background-position: top center;
             background-size: cover;
           "
         ></div>
         <!--/.bg-holder-->
-        <div class="container pt-1">
+        <div class="container">
           <div class="row min-vh-xl-100 min-vh-xxl-25 my-5">
             <div
               class="col-md-5 col-xl-6 col-xxl-7 order-0 order-md-1 text-end"
@@ -105,17 +110,21 @@
                 alt="hero-header"
               />
             </div>
-            <div class="col-md-75 col-xl-6 col-xxl-5 text-md-start text-center">
-              <h1 class="pt-3">Welcome to <strong>Shrestha Club</strong></h1>
+            <div
+              class="col-md-75 col-xl-6 col-xxl-5 text-md-start text-center"
+              "
+            >
+              <h1 class="py-2">Welcome to <strong>Shrestha Club</strong></h1>
               <p class="fs-4 py-1">
                 Shrestha Club is a forum to help youths to channelize their
                 energy & potential to become a
                 <strong> ‘Shrestha’ – ‘A Leader’</strong> 👑 within the society.
               </p>
               <a
-                class="btn btn-lg btn-primary rounded-pill"
+                class="btn btn-lg btn-success rounded-pill"
                 href="#!"
                 role="button"
+                
                 >Read More</a
               >
             </div>
@@ -125,10 +134,10 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="py-5" id="offerings">
+      <section class="py-2" id="offerings">
         <div class="container">
           <div class="row">
-            <div class="col-12 py-3">
+            <div class="col-12 py-4">
               <div
                 class="bg-holder bg-size"
                 style="
@@ -164,19 +173,12 @@
                 <div class="icon-box text-center">
                   <a class="text-decoration-none" href="#!"
                     ><img
-                      class="mb-3 deparment-icon"
-                      src="Images/video.png"
+                      class="mb-3 offerings-icon"
+                      src="Images/icons/webinars (2).png"
                       alt="webinar icon"
-                      width="60px"
-                      height="55px"
-                    /><img
-                      class="mb-3 deparment-icon-hover"
-                      src="Images/video (1).png"
-                      alt="webinar icon"
-                      width="60px"
-                      height="55px"
+                    
                     />
-                    <p class="fs-1 fs-xxl-2 text-center">Webinars</p>
+                    <p class=" fs-xxl-2 text-center">Webinars</p>
                   </a>
                 </div>
               </div>
@@ -186,15 +188,12 @@
                 <div class="icon-box text-center">
                   <a class="text-decoration-none" href="#!"
                     ><img
-                      class="mb-3 deparment-icon"
-                      src="assets/img/icons/eye-care.png"
-                      alt="..."
-                    /><img
-                      class="mb-3 deparment-icon-hover"
-                      src="assets/img/icons/eye-care.svg"
-                      alt="..."
+                      class="mb-3 offerings-icon"
+                      src="Images/icons/retreat.png"
+                      alt="Retreats-icon"
+                     
                     />
-                    <p class="fs-1 fs-xxl-2 text-center">Retreats</p>
+                    <p class=" fs-xxl-2 text-center">Retreats</p>
                   </a>
                 </div>
               </div>
@@ -204,15 +203,13 @@
                 <div class="icon-box text-center">
                   <a class="text-decoration-none" href="#!"
                     ><img
-                      class="mb-3 deparment-icon"
-                      src="assets/img/icons/cardiac.png"
-                      alt="..."
-                    /><img
-                      class="mb-3 deparment-icon-hover"
-                      src="assets/img/icons/cardiac.svg"
-                      alt="..."
+                      class="mb-3 offerings-icon"
+                      src="Images/icons/guest-lecture.png"
+                      alt="..." 
+                      
+                      
                     />
-                    <p class="fs-1 fs-xxl-2 text-center">Guest Lectures</p>
+                    <p class=" fs-xxl-2 text-center">Guest Lectures</p>
                   </a>
                 </div>
               </div>
@@ -222,15 +219,12 @@
                 <div class="icon-box text-center">
                   <a class="text-decoration-none" href="#!"
                     ><img
-                      class="mb-3 deparment-icon"
-                      src="assets/img/icons/heart.png"
-                      alt="..."
-                    /><img
-                      class="mb-3 deparment-icon-hover"
-                      src="assets/img/icons/heart.svg"
-                      alt="..."
+                      class="mb-3 offerings-icon"
+                      src="Images/icons/like minded.png"
+                      alt="living-with-like-minded-icon"
+                    
                     />
-                    <p class="fs-1 fs-xxl-2 text-center">
+                    <p class=" fs-xxl-2 text-center">
                       Living with Like Minded
                     </p>
                   </a>
@@ -242,15 +236,12 @@
                 <div class="icon-box text-center">
                   <a class="text-decoration-none" href="#!"
                     ><img
-                      class="mb-3 deparment-icon"
-                      src="assets/img/icons/osteoporosis.png"
-                      alt="..."
-                    /><img
-                      class="mb-3 deparment-icon-hover"
-                      src="assets/img/icons/osteoporosis.svg"
-                      alt="..."
+                      class="mb-3 offerings-icon"
+                      src="Images/icons/meditation.png"
+                      alt="meditation"
+                    
                     />
-                    <p class="fs-1 fs-xxl-2 text-center">Meditation Circles</p>
+                    <p class=" fs-xxl-2 text-center">Meditation</p>
                   </a>
                 </div>
               </div>
@@ -260,15 +251,11 @@
                 <div class="icon-box text-center">
                   <a class="text-decoration-none" href="#!"
                     ><img
-                      class="mb-3 deparment-icon"
-                      src="assets/img/icons/ent.png"
-                      alt="..."
-                    /><img
-                      class="mb-3 deparment-icon-hover"
-                      src="assets/img/icons/ent.svg"
+                      class="mb-3 offerings-icon"
+                      src="Images/icons/help.png"
                       alt="..."
                     />
-                    <p class="fs-1 fs-xxl-2 text-center">Volunteering</p>
+                    <p class=" fs-xxl-2 text-center">Councelling</p>
                   </a>
                 </div>
               </div>
@@ -290,33 +277,83 @@
           "
         ></div>
         <!--/.bg-holder-->
-        <div class="container">
+        <div class="container-fluid">
           <div class="row align-items-center">
             <div class="col-md-5 col-xxl-6">
-              <img
-                class="img-fluid"
-                src="assets/img/gallery/eye-care.png"
-                alt="..."
-              />
+              <!-- DYS Image Slideshow 'carousel' -->
+              <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Images/DYS-Images/New_DYS 1.jpg" class="d-block w-100" alt="...">
+                    <!-- <div class="carousel-caption d-none d-md-block"> 
+                      <h5>First slide label- for adding label and captions</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div> -->
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img src="Images/DYS-Images/New_DYS 2.jpg" class="d-block w-100" alt="...">
+                    
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img src="Images/DYS-Images/New_DYS 3.jpg" class="d-block w-100" alt="...">  
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img src="Images/DYS-Images/New_DYS 4.jpg" class="d-block w-100" alt="...">  
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img src="Images/DYS-Images/New_DYS 5.jpg" class="d-block w-100" alt="...">  
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img src="Images/DYS-Images/New_DYS_6.jpg" class="d-block w-100" alt="...">  
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
             <div class="col-md-7 col-xxl-6 text-center text-md-start">
               <h2 class="fw-bold text-light mb-4 mt-4 mt-lg-0">
-                Eye Care with Top Professionals<br
+                Discover Your Self - A Six Session Certified Course<br
                   class="d-none d-sm-block"
-                />and In Budget.
+                />
               </h2>
               <p class="text-light">
-                We've built a healthcare system that puts your needs first.<br
-                  class="d-none d-sm-block"
-                />For us, there is nothing more important than the health of
-                <br class="d-none d-sm-block" />you and your loved ones.
+                🔶 <b> Highlights of this Webinar :-</b> <br>
+                • Each session connects to the previous one and the audience
+                 is led on a sacred journey of life’s mysteries through cogent arguments. <br> 
+                • Lively examples relating to our daily life help us relate to the subject matter. <br>
+                • You will <b>get Certificate for this Course</b> which you can add into your CV too
+                <br> <br>
+                🔷 <b> Weekly Sessions (1 session/week) on below topics:-</b> <br>
+
+                1. Discover The Game of Life <br>
+                2. Discover Inner Self <br>
+                3. Discover The Ultimate Genius <br>
+                4. Discover Manual of Life <br>
+                5. Discover Lasting Solution <br>
+                6. Discover Sublime Joy Through Sound <br>
               </p>
               <div class="py-3">
                 <a
                   class="btn btn-lg btn-light rounded-pill"
                   href="#!"
                   role="button"
-                  >Learn more
+                  >Register Now
                 </a>
               </div>
             </div>

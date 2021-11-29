@@ -1,9 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Slabo+27px&display=swap&family=Fjalla+One');
 
 
-.navbar-light .navbar-nav .nav-link{
-    color: rgb(27, 37, 32);
+:root{
+    --primary-color:rgb(3,84,73);
+    --secondary-color: rgb(175, 216, 151);
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Slabo 27px', serif;
+    --headings-font: 'Fjalla One', sans-serif;
+
+}
+
+h1{
+    font-family: var(--headings-font);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--primary-color);
     font-size: 1.2rem;
+    font-weight: bold;
+    font-family: var(--primary-font);
     
-    
+}
+nav a.btn{
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: var(--primary-font);
+    border: 3px solid var(--primary-color);
+}
 
+.icon-box p{
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-family: var(--secondary-font);
+   
+}
+
+.icon-box img{
+    width: 75px;
+    height: 70px;
 }
