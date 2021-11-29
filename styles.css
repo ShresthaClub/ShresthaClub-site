@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Slabo+27px&display=swap&family=Fjalla+One');
 
+body{
+    background: #67B26F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+     
+}
 :root{
     --primary-color:rgb(3,84,73);
     --secondary-color: rgb(175, 216, 151);
@@ -21,6 +27,14 @@ h1{
     font-family: var(--primary-font);
     
 }
+
+.navbar-brand img{
+    border-radius: 25px;
+    
+   padding: 10px;
+    width: 200px;
+    height: 120px;
+}
 nav a.btn{
     color: var(--primary-color);
     font-size: 1.2rem;
@@ -39,4 +53,8 @@ nav a.btn{
 .icon-box img{
     width: 75px;
     height: 70px;
+}
+
+.dys h2{
+    padding-top: 3rem;;
 }
