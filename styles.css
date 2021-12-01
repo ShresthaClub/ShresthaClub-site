@@ -13,7 +13,7 @@ background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%); */
 /* 
     background-color: #74EBD5; gradient 2
     background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); */
-
+   
 }
 
 :root{
@@ -40,7 +40,7 @@ h1{
     
 }
 .navbar-light .navbar-nav .nav-link:hover{ /*Links when hover on Nav Bar*/
-   color: #004526;
+   color: white;
 }
 
 .navbar-brand img{ /*Shrestha Club logo*/
@@ -66,7 +66,7 @@ nav a.btn:hover {  /*Sign In Button when Hover in Navbar*/
     
 }
 
-.btn-readmore, .btn-register-now, .btn-learn-more{
+.btn-readmore, .btn-register-now, .btn-learn-more, .btn-submit, .btn-subscribe{
     background: var(--gradient-one);
     font-weight: bold;
     font-family: var(--primary-font);
@@ -75,7 +75,7 @@ nav a.btn:hover {  /*Sign In Button when Hover in Navbar*/
 
 }
 
-.btn-readmore:hover, .btn-register-now:hover, .btn-learn-more:hover{
+.btn-readmore:hover, .btn-register-now:hover, .btn-learn-more:hover, .btn-submit:hover, .btn-subscribe:hover{
     background: var(--gradient-two);
     color: white;
 }
@@ -94,6 +94,11 @@ nav a.btn:hover {  /*Sign In Button when Hover in Navbar*/
     height: 70px;
 }
 
+.form-control, .form-select{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+   
+}
 
 
 #carouselExampleDark1 .carousel-control-prev{
@@ -108,4 +113,31 @@ nav a.btn:hover {  /*Sign In Button when Hover in Navbar*/
 }
 #carouselExampleDark1{
     margin-left: 80px;
+}
+
+.icon-whatsapp{
+    margin: 0rem 2rem 0rem 10rem;
+}
+
+.section-newsletter{
+    background: var(--gradient-two);
+    color: white;
+    font-style: var(--secondary-font);
+    padding: 40px 0px;
+}
+
+.follow-us-icons{
+    width: 40px;
+    height: 40px;
+    margin-right: 25px;
+}
+footer{
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    
+}
+.footer-end{
+    background: var(--primary-color);
 }
