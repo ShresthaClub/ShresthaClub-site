@@ -103,17 +103,15 @@ nav a.btn:hover {  /*Sign In Button when Hover in Navbar*/
 
 #carouselExampleDark1 .carousel-control-prev{
 
-        left: -65px;
+        left: -50px;
     
 }
 #carouselExampleDark1 .carousel-control-next{
 
-    right: -65px;
+    right: -50px;
 
 }
-#carouselExampleDark1{
-    margin-left: 80px;
-}
+
 
 .icon-whatsapp{
     margin: 0rem 2rem 0rem 10rem;
@@ -140,4 +138,18 @@ footer{
 }
 .footer-end{
     background: var(--primary-color);
+}
+
+.btn-read-article{
+  
+  width: 100%;
+  font-size: 20px;
+  
+}
+
+a.footer-link{
+  text-decoration: none;
+  color: white;
+  
+ 
 }
