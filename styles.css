@@ -1,19 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Slabo+27px&display=swap&family=Fjalla+One');
 
 body{
-    background: #67B26F;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    color: #091642;
-    
-    /* background-color: #A9C9FF;             Gradient 1
-background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%); */  
-
-/* 
-    background-color: #74EBD5; gradient 2
-    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); */
    
+    color: #091642;
+    margin: 0;
+    padding: 0;
+    
 }
 
 :root{
@@ -30,6 +22,7 @@ h1{
     font-family: var(--headings-font);
    
 }
+
 
 .navbar-light .navbar-nav .nav-link { /*Links in Nav Bar*/
     color: var(--primary-color);
@@ -152,4 +145,8 @@ a.footer-link{
   color: white;
   
  
+}
+.dys, .our-team{
+    background-color: #035449;
+    color: white;
 }
